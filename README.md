@@ -6,8 +6,8 @@ inicio:calcular porcentaje d squad
 - porcentaje_squad
 
 # proceso
-_ pedir punto_squad
-_ pedir max_puntos 
+_ pedir punto squad
+_ pedir max puntos 
 _ Operar (100 * punto_squad) / max_puntos y guardar en porcentaje_squad
 _ Si porcentaje_squad es mayor que 80
 - Mostrar mensaje "Muy bien Squad!
